@@ -16,7 +16,7 @@ const activeCharacters = [
 ];
 
 const team = new Team();
-team.addAll(...activeCharacters);
+team.addAll(activeCharacters);
 team.toArray();
 
 for (const item of team) {
